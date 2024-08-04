@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "app.py", "use": "@vercel/python" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "app.py" }
+    ],
+    "env": {
+        "USER_DB":"root",
+        "PASSWORD_DB":"ZwOYjLmWpOZSyxlSGscIvNaRuVScZjUs",
+        "HOST_DB":"roundhouse.proxy.rlwy.net",
+        "SCHEMA_DB":"railway"
+
+        
+    }
+}
