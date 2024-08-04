@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\heyber.nino\Downloads\PROY-3 -h.ninoG\PROY-3 -h.ninoG\Proyecto\venv"
+VIRTUAL_ENV="C:\Users\heyber.nino\Downloads\ProyectoFinal\ProyectoFinal-h.ninoG\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

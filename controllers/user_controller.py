@@ -1,7 +1,7 @@
 from flask import request, jsonify, redirect, render_template, make_response
 from flask_restful import Resource
 from flask_login import login_user, logout_user
-from models.users import Users
+from models.user import Users
 from db import db
 
 class RegisterController(Resource):

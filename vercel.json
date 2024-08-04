@@ -8,10 +8,9 @@
     ],
     "env": {
         "USER_DB":"root",
-        "PASSWORD_DB":"ZwOYjLmWpOZSyxlSGscIvNaRuVScZjUs",
-        "HOST_DB":"roundhouse.proxy.rlwy.net",
-        "SCHEMA_DB":"railway"
-
-        
-    }
+        "PASSWORD_DB":"PYecFxYAGXlFbNWMhcLNiuvOujHPpRUQ",
+        "HOST_DB":"mysql.railway.internal",
+        "SCHEMA_DB":"railway",
+        "PORT_DB": "24811"
+    }  
 }

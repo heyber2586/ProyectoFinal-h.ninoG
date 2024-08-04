@@ -5,7 +5,7 @@ from models.heladeria import Heladeria
 from models.producto import Producto
 from models.ingredientes import Ingredientes
 from models.tipo_ingrediente import TipoIngrediente
-from models.users import Users
+from models.user import Users
 from models.heladeria import Heladeria
 from db import db
 from dotenv import load_dotenv
@@ -21,7 +21,7 @@ load_dotenv()
 
 secret_key = os.urandom(24)
 app = Flask(__name__)
-app.config["SQLALCHEMY_DATABASE_URI"] = f'mysql+pymysql://root:ZwOYjLmWpOZSyxlSGscIvNaRuVScZjUs@roundhouse.proxy.rlwy.net:50034/railway'
+app.config["SQLALCHEMY_DATABASE_URI"] = f'mysql+pymysql://root:PYecFxYAGXlFbNWMhcLNiuvOujHPpRUQ@monorail.proxy.rlwy.net:24811/railway'
 app.config["SECRET_KEY"] = secret_key
 db.init_app(app)
 api = Api(app)
